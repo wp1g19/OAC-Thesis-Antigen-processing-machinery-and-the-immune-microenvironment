@@ -1,0 +1,2 @@
+selectAnnotations();
+runPlugin('qupath.opencv.CellCountsCV', '{"stainChannel": "Hematoxylin",  "gaussianSigmaMicrons": 1.5,  "backgroundRadiusMicrons": 15.0,  "doDoG": true,  "threshold": 0.1,  "thresholdDAB": 0.2,  "detectionDiameter": 25.0}');
